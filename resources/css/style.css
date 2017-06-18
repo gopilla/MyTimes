@@ -92,3 +92,17 @@ span.mainstory{
   font-size: 17px;
   color: black;
 }
+.fouritems{
+  display: inline-flex;
+  align-content: space-between;
+
+
+}
+.leftitem{
+  display: flex;
+  flex-direction: column;
+}
+.rightitem{
+  display: flex;
+  flex-direction: column;
+}
