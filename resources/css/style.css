@@ -34,7 +34,7 @@ nav span{
 .column{
   display: flex;
   border: 1px solid black;
-  align-items: stretch;
+  justify-content: space-between;
 }
 
 .column div{
