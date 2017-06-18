@@ -61,3 +61,32 @@ nav span{
   margin-right: 20px;
 
 }
+.mainstory{
+  background-image: url("../images/img-story-main.png");
+}
+.imgstory2{
+  background-image: url("../images/img-story-2.png");
+}
+.imgstory3{
+  background-image: url("../images/img-story-3.png");
+}
+.cat{
+  background-image: url("../images/img-story-1.png");
+}
+.neswbitepic{
+  background-image: url("..images/img-news-bite.png");
+  image-orientation: initial;
+}
+
+span{
+ font-family: Georgia;
+ font-weight: bold;
+ font-size: 30px;
+ color: white;
+ padding: 60px 20px;
+ text-align: center;
+}
+span.mainstory{
+  font-size: 40px;
+  text-align: left;
+}
