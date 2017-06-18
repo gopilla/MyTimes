@@ -35,6 +35,7 @@ nav span{
   display: flex;
   border: 1px solid black;
   justify-content: space-between;
+  padding-top: 25px;
 }
 
 .column div{
@@ -42,7 +43,6 @@ nav span{
 }
 .large {
   width: 630px;
-  flex-direction: column;
 }
 
 .medium {
@@ -57,5 +57,7 @@ nav span{
 .medium,
 .small{
   display: flex;
+  flex-direction: column;
+  margin-right: 20px;
 
 }
