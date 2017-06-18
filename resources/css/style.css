@@ -34,21 +34,21 @@ nav span{
 .column{
   display: flex;
   border: 1px solid black;
-  justify-content: space-between;
+  align-items: stretch;
 }
 
 .column div{
   border: 1px solid black;
 }
-.column.large {
+.large {
   width: 630px;
 }
 
-.column.medium {
+.medium {
   width: 300px;
 }
 
-.column.small {
+.small {
   width: 240px;
 }
 
