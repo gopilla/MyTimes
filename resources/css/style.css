@@ -110,12 +110,12 @@ span.mainstory{
 
 }
 .leftitem{
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   padding-right: 15px;;
 }
 .rightitem{
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
 }
 
@@ -135,28 +135,44 @@ span.mainstory{
   color: DimGray;
 }
 footer{
-  display: flex;
   justify-content: center;
   align-content: center;
+  flex-direction: row;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
+  height: 300px;
+  width: 100%;
+
+}
+.upperfooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .logoMT{
+  display: inline-flex;
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   color: white;
+  
+  padding-right: 20px;
+  border-right: 2px solid white;
 }
 .navfooter{
-  display: inline-block;
-  justify-content: space-around;
-  align-content: center;
+  display: inline-flex;
+
 }
 .navfooter a{
   color: black;
 }
 .copyright{
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.copyright p  {
+  height: 25px;
 }
